@@ -4,54 +4,155 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Home</title>
-    <!-- You can add external CSS files here -->
+    <title>Ziyang Ren - Portfolio</title>
     <style>
-        /* Add internal CSS styles here */
         body {
-            font-family: Arial, sans-serif; /* This is a basic, widely available font. You can change this to suit your style. */
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f3f3f3; /* This is a light gray background. You can use any color code or name. */
+            background-color: #f3f3f3;
         }
         .container {
             width: 80%;
             margin: auto;
             background-color: #fff;
-            padding: 10px;
+            padding: 20px;
             border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* This adds a subtle shadow. Adjust to suit your style. */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        header, .content, footer {
-            margin: 15px 0;
+        header, section, footer {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <!-- Header: This will contain your name or logo -->
+        <!-- Header -->
         <header>
-            <h1>Your Name</h1>
+            <h1>Ziyang Ren</h1>
+            <p>
+                Email: <a href="mailto:zr86@cornell.edu">zr86@cornell.edu</a> | Address: 110 Veterans Place, Ithaca, NY 14850 <br>
+                GitHub: <a href="https://github.com/ThomasRen2077" target="_blank">ThomasRen2077</a> | Cell: (607) 379-2623
+            </p>
         </header>
 
-        <!-- Content: This is where you'll add your introduction/biography -->
-        <div class="content">
-            <h2>About Me</h2>
-            <p>
-                Hello! My name is [Your Name], and I'm a [Your Profession] based in [Your Location]. I have a passion for [a few interests or professional skills], and I've been working in this field for [number of years] years.
-            </p>
-            <p>
-                [Add more personal stories, achievements, or anything you'd like your visitors to know.]
-            </p>
-        </div>
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>Cornell University, College of Engineering, Ithaca, NY</strong> <br>
+                    Master of Engineering in Electrical and Computer Engineering, Expected Dec. 2024
+                </li>
+                <li>
+                    <strong>Southeast University, School of Information Engineering, Nanjing, China</strong> <br>
+                    Bachelor of Science in Information Engineering, GPA: 3.81, July 2022 <br>
+                    Selected Coursework: Digital Logic Design, VLSI Design, Computer Architecture, Digital Systems Design, Operating Systems, FPGA-Based System Design, Hardware Description Languages (VHDL & Verilog)
+                </li>
+            </ul>
+        </section>
 
-        <!-- Contact: This section will contain your contact information -->
+        <!-- Skills -->
+        <section>
+            <h2>Specialized Skills</h2>
+            <ul>
+                <li><strong>Technical:</strong> MATLAB, Verilog/VHDL, Python, C/C++, Assembly, System Verilog, UVM</li>
+                <li><strong>Tools:</strong> Xilinx Vivado, ModelSim, Quartus Prime, FPGA Development Boards, LaTeX, Microcontroller</li>
+                <li><strong>Concepts:</strong> RTL Design, FPGA-based prototyping, Digital Circuit Synthesis</li>
+            </ul>
+        </section>
+
+        <!-- Experience -->
+        <section>
+            <h2>Engineering Experience</h2>
+            <ul>
+                <!-- Each item in this list should be a job or internship -->
+                <li>
+                    <strong>Electrical Engineer Intern, VeriSilicon Microelectronics, Nanjing, China</strong> <br>
+                    June - Aug. 2021 <br>
+                    - Developed an Android application for exercise movement data detection and analysis. <br>
+                    - Collected datasets for exercise recognition and OSAHS monitoring projects. <br>
+                    - Conducted data analysis and designed machine learning algorithms.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Projects -->
+        <section>
+            <h2>Relevant Academic Projects</h2>
+            <ul>
+                <!-- Each item in this list should be a significant project you've worked on -->
+                <li>
+                    <strong>Hardware Accelerator Design and Programming for Efficient Deep Learning</strong> <br>
+                    College of Engineering, Cornell University, Aug. 2023 - Expected May 2024 <br>
+                    - Utilized HeteroCL for deep learning model implementation and optimization. <br>
+                    - GitHub: <a href="https://github.com/cornell-zhang/heterocl" target="_blank">github.com/cornell-zhang/heterocl</a>
+                </li>
+                <li>
+                    <strong>Design of 32-bit Processor</strong> <br>
+                    School of Information Engineering, Southeast University, Jan. - May 2022 <br>
+                    - Designed a 32-bit microprocessor using Verilog. <br>
+                    - Implemented a pipelined architecture and optimized for performance.
+                </li>
+                <li>
+                    <strong>FPGA-based Simulation of Subway Systems</strong> <br>
+                    School of Information Engineering, Southeast University, Oct. – Dec. 2021 <br>
+                    - Designed and simulated subway system operations on FPGA Development Boards. <br>
+                    - Implemented Dijkstra's algorithm for ticket pricing.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Leadership -->
+        <section>
+            <h2>Leadership Experience</h2>
+            <ul>
+                <li>
+                    <strong>Student Technology Association, Technology, Nanjing, China</strong> <br>
+                    Sept. 2019 – Aug. 2020 <br>
+                    - Organized technical workshops and training sessions for students.
+                </li>
+                <li>
+                    <strong>Event Organizer of TEDx SEU, Humanity, Nanjing, China</strong> <br>
+                    Sept. 2018 – Aug. 2019 <br>
+                    - Conducted workshops and organized events for over 1000 students.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Honors -->
+        <section>
+            <h2>Honors and Awards</h2>
+            <ul>
+                <li>The First Prize Scholarship of Southeast University</li>
+                <li>Recognized for outstanding performance in Digital Logic Design coursework</li>
+                <li>Honored with the "Best Project Presentation" award in the FPGA-Based System Design course</li>
+            </ul>
+        </section>
+
+        <!-- Footer -->
         <footer>
-            <h2>Contact Me</h2>
-            <p>Email: [your-email@example.com]</p>
-            <p>Phone: [your phone number]</p>
-            <!-- Add any other contact methods or social media links here -->
+            <p>&copy; 2023 Ziyang Ren | All rights reserved.</p>
         </footer>
     </div>
 
