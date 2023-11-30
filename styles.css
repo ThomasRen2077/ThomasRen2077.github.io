@@ -1,18 +1,105 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+
+:root {
+  --primary: #396dff;
+  --grey: #f7f7f7;
+  --white: #fff;
+
+  --xs: 4px;
+  --s: 8px;
+  --m: 16px;
+  --l: 24px;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  /* font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif; */
+  font-family: "Nova Square", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f3f3f3;
+  background-color: var(--grey);
 }
-.container {
+
+.container0 {
   width: 80%;
   margin: auto;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
+  background-color: var(--grey);
+  padding: var(--l);
+  border-radius: var(--s);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-header,
+
+.subContainer0 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-basis: 20%;
+  padding: 0px 0px 0px 40%;
+  font-size: 48px;
+}
+
+.subContainer1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  margin: 16px;
+  font-size: 16px;
+}
+
+.subContainer2 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+}
+
+.subContainer3 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  padding: 0px 0px 0px 60%;
+  margin: 4px;
+}
+
+.subContainer4 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  padding: 0px 0px 0px 10%;
+  margin: 4px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: flex-start;
+  background-color: var(--grey);
+  padding: var(--s) var(--l) var(--s) 20%;
+  margin: var(--s);
+
+  /* border-radius: var(--s);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.subContainer5 {
+  display: flex;
+  flex-basis: 10%;
+}
+
+.subContainer6 {
+  display: flex;
+  flex-basis: 80%;
+  flex-wrap: wrap;
+}
+
+.u-textCenter {
+  text-align: center;
+}
+
+/* header,
 section,
 footer {
   margin-bottom: 20px;
@@ -35,4 +122,4 @@ a {
 }
 a:hover {
   text-decoration: underline;
-}
+} */
