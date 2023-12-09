@@ -1,4 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
 
 :root {
@@ -6,15 +5,20 @@
   --grey: #f7f7f7;
   --white: #fff;
 
+  --xxs: 2px;
   --xs: 4px;
   --s: 8px;
   --m: 16px;
   --l: 24px;
+  --g: 48px;
+  --gg: 96px;
+  --ggg: 192px;
+  --x: 256px;
+  --xx: 320px;
+  --xxx: 384px;
 }
 
 body {
-  /* font-family: "Open Sans", sans-serif;
-  font-family: "Roboto", sans-serif; */
   font-family: "Nova Square", sans-serif;
   margin: 0;
   padding: 0;
@@ -32,11 +36,9 @@ body {
 
 .subContainer0 {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
-  flex-basis: 20%;
-  padding: 0px 0px 0px 40%;
-  font-size: 48px;
+  font-size: var(--g);
 }
 
 .subContainer1 {
@@ -60,7 +62,7 @@ body {
   justify-content: flex-start;
   flex-wrap: wrap;
   flex-basis: 100%;
-  padding: 0px 0px 0px 60%;
+  padding: 0px 0px 0px 48%;
   margin: 4px;
 }
 
@@ -69,57 +71,52 @@ body {
   justify-content: flex-start;
   flex-wrap: wrap;
   flex-basis: 100%;
-  padding: 0px 0px 0px 10%;
-  margin: 4px;
+  padding: 0px 0px 0px 0px;
+  margin: var(--xs);
 }
 
 .container1 {
   display: flex;
   justify-content: flex-start;
   background-color: var(--grey);
-  padding: var(--s) var(--l) var(--s) 20%;
-  margin: var(--s);
-
-  /* border-radius: var(--s);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  padding: var(--s) var(--s) 0 var(--s);
+  margin: var(--s) var(--gg) 0 var(--gg);
 }
 
 .subContainer5 {
   display: flex;
-  flex-basis: 10%;
+  flex-basis: 15%;
+  margin: 0px;
 }
 
 .subContainer6 {
   display: flex;
-  flex-basis: 80%;
+  flex-basis: 85%;
   flex-wrap: wrap;
+  margin: 0px;
+}
+
+.subContainer7 {
+  width: 100%;
+  margin: var(--xs) var(--xs) var(--xs) 0px;
+}
+
+.subContainer8 {
+  width: 100%;
+  margin: var(--xxs);
+}
+
+.subContainer9 {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--xxs) var(--xxs) var(--xxs) 0px;
+}
+
+.subContainer10 {
+  display: flex;
+  margin: var(--xxs);
 }
 
 .u-textCenter {
   text-align: center;
 }
-
-/* header,
-section,
-footer {
-  margin-bottom: 20px;
-}
-h2 {
-  color: #333;
-  border-bottom: 2px solid #333;
-  padding-bottom: 10px;
-}
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-li {
-  margin-bottom: 10px;
-}
-a {
-  color: #0066cc;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-} */
