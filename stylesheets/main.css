@@ -107,6 +107,7 @@ body {
   flex-basis: 15%;
   margin: 0px;
   font-size: 16px;
+  padding: var(--s);
 }
 
 .subContainer6 {
